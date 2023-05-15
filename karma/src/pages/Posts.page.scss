@@ -1,0 +1,10 @@
+.listat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .post-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1rem; 
+    
+  }
+  
+  .post-item {
+    background-color: #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    
+  }
+
+  img {
+    width: 100%;
+    // height: auto;
+    // object-fit: cover;
+  }

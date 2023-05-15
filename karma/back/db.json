@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "titulo": "El Pequeño Principe",
+      "estilo": "Novela",
+      "autor": "Antoine de Saint-Exupery",
+      "imagen": "https://cloud10.todocoleccion.online/libros-segunda-mano-cuentos/tc/2017/12/18/18/106765351.jpg"
+    },
+    {
+      "titulo": "Vida de Consumo",
+      "autor": "Sygmunt Bauman",
+      "id": 2,
+      "estilo": "Filosofia",
+      "imagen": "https://m.media-amazon.com/images/I/81rwfv0UBxL.jpg"
+    },
+    {
+      "titulo": "Totalidad e Infinito",
+      "estilo": "Intersubjetividad",
+      "autor": "Enamnuel Levinas",
+      "id": 3,
+      "imagen": "https://server.knosys.es/_sefarad_wp2/knobj?bd=3B3ED0C5E90&t=1&obj=1999.%20Emmanuel%20Levinas,%20Totalidad%20e%20infinito.%20Ensayo%20sobre%20la%20exterioridad.jpg&id=E863CF501D04BB2DD322FA0"
+    },
+    {
+      "titulo": "De la Gramatologia",
+      "estilo": "Posestructuralismo",
+      "autor": "Jacques Derrida",
+      "id": 4,
+      "imagen": "https://d22fxaf9t8d39k.cloudfront.net/9012637f7b5d1b2b03087f37566c728f24bc014999bc1fd11d110b57dc19706d99880.jpeg"
+    },
+    {
+      "titulo": "Microfisica del Poder",
+      "texto": "Michel Foucault",
+      "id": 5,
+      "estilo": "Filosofia",
+      "imagen": "https://m.media-amazon.com/images/I/717kDicPv-L.jpg",
+      "autor": "Michel Foucault"
+    },
+    {
+      "titulo": "Critica de la Razon Pura",
+      "texto": " Kant argumenta que todo conocimiento requiere la concurrencia de dos facultades radicalmente heterogéneas de la mente: la sensibilidad y el entendimiento. Por la primera los objetos nos son dados, mientras que por la segunda éstos son pensados. ",
+      "autor": "Immanuel Kant",
+      "estilo": "Filosofia",
+      "id": 6,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/0e/ac/0eac95bedb2a259854984116297464f8.jpg"
+    },
+    {
+      "titulo": "El Discruso del Metodo",
+      "texto": "«El primero, no admitir jamás cosa alguna como verdadera sin haber conocido con evidencia que así era».",
+      "autor": "Rene Descartes",
+      "estilo": "Filosofia",
+      "id": 7,
+      "imagen": "https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/62552cee693c4c7b3f89ba3a_609bf780e7105abce93691e3_cubierta_web.jpeg"
+    },
+    {
+      "titulo": "El Arte de Tener Siempre Razon",
+      "texto": "\"Si hemos expuesto una tesis paradójica, pero nos encontramos en dificultades para demostrarla, presentamos al adversario otra tesis correcta, aunque no del todo evidente, para que la acepte o la refute como si de ello quisiéramos obtener la prueba; si sospechando alguna treta la rechaza, entonces lo reducimos ad absurdum [al absurdo], y triunfamos; pero si la acepta, habremos dicho entretanto algo razonable, y ya veremos cómo sigue adelante el asunto.\"",
+      "estilo": "Sociologia",
+      "autor": "Arthur Schopenhauer",
+      "id": 8,
+      "imagen": "https://m.media-amazon.com/images/I/91xXo26hQHL.jpg"
+    },
+    {
+      "titulo": "Gato testando",
+      "texto": "testeando el test",
+      "autor": "testeador",
+      "estilo": "test",
+      "id": 9,
+      "imagen": "https://img.freepik.com/fotos-premium/hacker-trabaja-cuarto-oscuro-gato-encapuchado-utiliza-ia-generativa-ilustracion-computadora_788189-3997.jpg"
+    },
+    {
+      "titulo": "Modernidad Liquida",
+      "texto": "Los líquidos son informes y se transforman constantemente: fluyen. Por eso la metáfora de la liquidez es la adecuada para aprehender la naturaleza de la fase actual de la modernidad.",
+      "autor": "Zygmunt Bauman",
+      "estilo": "Sociologia",
+      "id": 10,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzRNvr_-O8MVMRHcL6gfkN0NvUzP1cBQwvn29iA9X5J4sHNbhnFD__Is4yu0Gkxdp6OkM&usqp=CAU"
+    },
+    {
+      "titulo": "gatito",
+      "texto": "emiliano",
+      "autor": "emilio",
+      "estilo": "gatuno",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbye90XQfTqj_sWTQIeLpk_YfWY-ihMoYsw&usqp=CAU",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "email": "tala@gmail.com",
+      "password": "$2a$10$ODlGY.Cdj5HkhlTCrxntGeF6Je0UBjsTPWYox6mf7WoCN0ogCXbbG",
+      "id": 1
+    },
+    {
+      "email": "hanna@gmail.com",
+      "password": "$2a$10$Wqzcnys8xpxU7.7crbhC8.YR2vMKK2VCq4vcihCKA3YWVo2aG7T3u",
+      "name": "Hanna Arendt",
+      "id": 2
+    },
+    {
+      "email": "heidegger@gmail.com",
+      "password": "$2a$10$8D3IlGaqD5pOiupgm.b9QuRQMvCK3sXJqyy0ir20OBwqQ/TVcZ/jK",
+      "name": "Martin Heidegger",
+      "id": 3
+    },
+    {
+      "email": "teste5@gmail.com",
+      "password": "$2a$10$SnxBNWYBgS7gEn4tZiSqYu3JCwZX4q76plfk2/vUOnaveg7JkRWBC",
+      "name": "teste5",
+      "id": 4
+    },
+    {
+      "email": "gatito@gmail.com",
+      "password": "$2a$10$OQtx4w3g2s7HMb95BTVc2eYmq9/T2ARhfYXjpSZpT56oWpIG5TwwK",
+      "name": "gatito",
+      "id": 5
+    }
+  ]
+}
