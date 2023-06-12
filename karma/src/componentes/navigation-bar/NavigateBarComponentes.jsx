@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import '../NavigateBarComponentes.scss'
 import { useContext } from "react";
+import "../NavigateBarComponentes.scss";
 import { PostContext } from "../../contexts/post.context";
 
 export default function NavigateBarComponentes(){
@@ -17,7 +18,12 @@ export default function NavigateBarComponentes(){
                     usuario? <li><Link to="/area-user">Area User</Link></li> : <li><Link to ="/login">Login</Link></li>
                 }
                 <li className="nav-li"><Link to="/posts">Posts</Link></li>
-                <li className="nav-li"><Link to="/posts/nuevo">Crear Post</Link></li>
+
+                {
+                    usuario?<li className="nav-li"><Link to="/posts/nuevo">Crear Post</Link></li>:''
+                }
+
+                {/* <li className="nav-li"><Link to="/posts/nuevo">Crear Post</Link></li> */}
 
                 {
                     usuario? <li className="nav-li"><Link to="/logout">Cerrar Sesión</Link></li> : ''

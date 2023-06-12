@@ -13,6 +13,7 @@ import AreaUserPage from './pages/AreaUser.page';
 import CerrarSesionPage from './pages/CerrarSesion.page';
 import { PostContext } from './contexts/post.context';
 import PostPage from './pages/Post.page';
+import FooterComponentes from './componentes/footer-componentes/footerComponentes'
 import "tailwindcss/tailwind.css";
 
 
@@ -26,7 +27,7 @@ function App() {
      <NavigateBarComponentes></NavigateBarComponentes>
      <Routes>
       <Route path='/posts' element={<PostsPage></PostsPage>}></Route>
-      <Route path='/posts/nuevo' element={<PostNuevoPage></PostNuevoPage>}></Route>
+      <Route path='/posts/nuevo' element={usuario?<PostNuevoPage></PostNuevoPage>:<Navigate to="/" replace></Navigate>}></Route>
       <Route path='/' element={<HomePage></HomePage>}></Route>
       <Route path='/login' element={usuario?<Navigate to="/users-page" replace></Navigate>:<LoginPage></LoginPage>}></Route>
       <Route path='/users' element={<UsersPage></UsersPage>}></Route>
@@ -34,13 +35,12 @@ function App() {
       <Route path='/area-user' element={usuario?<AreaUserPage></AreaUserPage>:<Navigate to="/login" replace></Navigate>}></Route>
       <Route path='/logout' element={<CerrarSesionPage></CerrarSesionPage>}></Route>
       <Route path='/posts/:id' element={<PostPage></PostPage>}></Route>
-      
-
-
+      <Route path='/footerComponentes' element={<FooterComponentes></FooterComponentes>}></Route>
      </Routes>
-     <footer className='footer'>
+
+     {/* <footer className='footer'>
       <p className='test'>FOOTER</p>
-     </footer>
+     </footer> */}
      </div>
     
   )

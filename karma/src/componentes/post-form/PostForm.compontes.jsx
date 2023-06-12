@@ -2,6 +2,7 @@
 import { useContext, useState } from "react"
 import { PostContext } from "../../contexts/post.context"
 // import axios from "axios"
+import "./PostForm.componentes.scss";
 
 
 export default function PostFormComponentes(){
@@ -32,28 +33,25 @@ export default function PostFormComponentes(){
         <div className="tdo">
         <h1>POST NUEVO</h1>
             <div>
-                <input name="titulo" value={post.titulo} onChange={modificaCampos} placeholder="titulo"></input>
+                <input className="acciones" name="titulo" value={post.titulo} onChange={modificaCampos} placeholder="titulo"></input>
             </div>
 
             <div>
-                <input name="imagen" value={post.imagen} onChange={modificaCampos} placeholder="imagen"></input>
+                <input className="acciones" name="imagen" value={post.imagen} onChange={modificaCampos} placeholder="imagen"></input>
             </div>
-
-
-
 
             
             <div>
-                <input name="estilo" value={post.estilo} onChange={modificaCampos} placeholder="estilo"></input>
+                <input className="acciones" name="estilo" value={post.estilo} onChange={modificaCampos} placeholder="estilo"></input>
             </div>
             <div>
-                <input name="autor" value={post.autor} onChange={modificaCampos} placeholder="autor"></input>
+                <input className="acciones" name="autor" value={post.autor} onChange={modificaCampos} placeholder="autor"></input>
             </div>
             <div>
-                <textarea name="texto" value={post.texto} onChange={modificaCampos} placeholder="texto"></textarea>
+                <textarea className="acciones" name="texto" value={post.texto} onChange={modificaCampos} placeholder="texto"></textarea>
             </div>
             <div>
-                <button onClick={crearPost}>
+                <button className="bt" onClick={crearPost}>
                     Crear
                 </button>
             </div>

@@ -1,5 +1,6 @@
 import { useContext, useState } from "react"
 import { PostContext } from "../../contexts/post.context"
+import './editarUserForm.componentes.scss';
 
 
 export default function EditarUserComponentes(){
@@ -7,7 +8,7 @@ export default function EditarUserComponentes(){
     const {usuario, cambiarNombre} = useContext(PostContext)
     const[nombre, SetNombre] = useState(usuario?usuario.name:'')
 
-    async function EditarUserComponentes(){
+    async function update(){
         try {
             await cambiarNombre(nombre)
         }catch (error) {
@@ -20,13 +21,13 @@ export default function EditarUserComponentes(){
         <div className="tdo">
         <h1>USER</h1>
             <div>
-                <input value={usuario?usuario.email: ''} type="email" readOnly={true}></input>
+                <input className="datos" value={usuario?usuario.email: ''} type="email" readOnly={true}></input>
             </div>
             <div>
-                <input value={nombre} onChange={(e)=>SetNombre(e.target.value)} type="text" placeholder="nombre"></input>
+                <input className="datos" value={nombre} onChange={(e)=>SetNombre(e.target.value)} type="text" placeholder="nombre"></input>
             </div>
             <div>
-                <button onClick={cambiarNombre}>Guardar Cambios</button>
+                <button className="accion" onClick={update}>Guardar Cambios</button>
             </div>
         </div>
     )

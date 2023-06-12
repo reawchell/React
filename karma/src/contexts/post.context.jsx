@@ -71,7 +71,7 @@ export default function PostContextProvider({children}){
             const usuarioSave = JSON.parse(localStorage.getItem('_user'))
             dispatch({type:'LOGIN', payload: usuarioSave})
         } catch (error) {
-
+//
         }
     }, [])
 

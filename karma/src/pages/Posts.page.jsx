@@ -6,7 +6,7 @@ import "tailwindcss/tailwind.css";
 export default function PostsPage(){
     return(
     <div className="tester">
-        <h1>POSTS</h1>
+        <h1 className="tester_centro">POSTS</h1>
         <PostContextProvider>
             <ListaPostsComponentes></ListaPostsComponentes>
         </PostContextProvider>
